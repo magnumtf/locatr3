@@ -10,6 +10,8 @@ public class GalleryItem {
     private String mId;
     private String mUrl;
     private String mOwner;
+    private double mLat;
+    private double mLon;
 
     public String getCaption() {
         return mCaption;
@@ -25,6 +27,22 @@ public class GalleryItem {
 
     public void setId(String id) {
         mId = id;
+    }
+
+    public double getLat() {
+        return mLat;
+    }
+
+    public void setLat(double mLat) {
+        this.mLat = mLat;
+    }
+
+    public double getLon() {
+        return mLon;
+    }
+
+    public void setLon(double mLon) {
+        this.mLon = mLon;
     }
 
     public String getUrl() {
